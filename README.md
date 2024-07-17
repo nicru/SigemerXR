@@ -13,8 +13,7 @@ SigemerXR is an Extended Reality app designed for prototyping emergency escape r
 ## Installation
 
 1. Clone the project repository on your machine.
-2. Add it as a valid Unity project on Unity Hub.  
-The project was done on *Unity 2022.3.34f1* with support for Android builds, you might want to use a similar version to avoid any compatibility issues.
+2. Add it as a valid Unity project on Unity Hub.
 3. This project was developed using Unity 2022.3.34f1. If you use a different version, compatibility issues might arise. These can be resolved, but it is not advised if an easy setup is desired.
 4. The rest of the dependencies should be downloaded by Unity Package Manager.
 5. Generate a running build from Unity build settings tab.

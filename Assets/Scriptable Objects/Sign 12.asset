@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4bb2fae9bc7b74a881fec4fa60359d, type: 3}
+  m_Name: Sign 12
+  m_EditorClassIdentifier: 
+  itemName: "Via de Evacuaci\xF3n"
+  itemImage: {fileID: 21300000, guid: b700d3bb91412ec40a2949eed44ef325, type: 3}
+  ItemDescription: Noroeste
+  item3DModel: {fileID: 839116138529432243, guid: 1ea7bf8331f3af34486274da58b52379, type: 3}

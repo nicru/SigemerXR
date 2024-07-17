@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4bb2fae9bc7b74a881fec4fa60359d, type: 3}
+  m_Name: Sign 8
+  m_EditorClassIdentifier: 
+  itemName: Fono de Emergencia
+  itemImage: {fileID: 21300000, guid: a0029cbe78485904ab399294a30cc807, type: 3}
+  ItemDescription: 
+  item3DModel: {fileID: 8128063733267630752, guid: 0487b7b88c64b034886a72bf979ca325, type: 3}

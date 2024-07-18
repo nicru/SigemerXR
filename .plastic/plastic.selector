@@ -1,4 +1,0 @@
-repository "SIGEMER XR - PRODUCTION CODEBASE@nicruzat@cloud"
-  path "/"
-    smartbranch "/main/Development"             
-     

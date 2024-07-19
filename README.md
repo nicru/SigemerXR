@@ -75,7 +75,7 @@ The project is being showcased for a short academic article, so the main purpose
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./COPYING) file for details.
 
 ## Credits
 

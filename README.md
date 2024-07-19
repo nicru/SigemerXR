@@ -1,4 +1,4 @@
-# SigemerXR
+# SigemerXR ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)  
 
 ## Project Description
 
@@ -15,7 +15,7 @@ SigemerXR is an Extended Reality app designed for prototyping emergency escape r
 1. Clone the project repository on your machine.
 2. Add it as a valid Unity project on Unity Hub.
 3. This project was developed using Unity 2022.3.34f1 with Android Build Support. If you use a different version, compatibility issues might arise. These can be resolved, but it is not advised if an easy setup is desired.
-4. The rest of the dependencies should be downloaded by Unity Package Manager. 
+4. The rest of the dependencies should be downloaded by Unity Package Manager.
    > **⚠️ Remember:** Go to `Assets/Scenes` and click on `SampleScene` in order to import the scene as it was intended to work on the original build. Otherwise, the scene will be empty and when trying to generate a build, it will not work.
 5. Generate a running build from Unity build settings tab.
 6. Download to an Android device that supports Google's ARCore. [List of supported devices](https://developers.google.com/ar/devices).
@@ -90,8 +90,3 @@ School of Engineering, Pontificia Universidad Católica de Chile
 ## Contact
 
 For any inquiries or feedback, please start an issue on this project repository.
-
-## Badges
-
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)  
-This build is up to date and fully functioning as described on the academic paper it was reported.

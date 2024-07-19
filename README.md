@@ -37,7 +37,37 @@ To ensure that emergency signs are placed effectively for maximum visibility, it
 
 ## Configuration
 
-The project should be ready to open in Unity as it is.
+The project should be ready to open in Unity as it is. However, you can customize the 3D models displayed by adding, removing, or editing the scriptable objects tracked by the data manager. Below are the steps for configuring the project:
+
+### Scriptable Objects
+
+1. To create a new scriptable object, navigate to `Assets` > `Create` > `Item`.
+2. Each scriptable object should contain the following fields:
+   - **Name**: The name of the item.
+   - **Description**: A brief description of the item.
+   - **2D Sprite**: An icon representing the item.
+   - **3D Model**: The associated 3D prefab.
+3. Place the scriptable objects in the `ScriptableObjects` folder within the `Assets` directory to maintain organization.
+
+### 3D Models
+
+1. Ensure that your 3D models are in a format supported by Unity.
+2. Follow the SnakeCase naming convention for 3D model files to ensure they are descriptive and easy to locate when adding to scriptable objects.
+3. Add your 3D models to the `3DModels` folder within the `Assets` directory.
+4. Adjust the size of the 3D models according to the Unity cube to maintain consistency.
+5. Convert the 3D models into prefabs:
+   - Add the `Item` tag to the prefabs to ensure they are tracked by the raytracing function.
+   - Attach a box collider to the prefabs to ensure precise touch input.
+6. Place the prefabs in the `Prefabs` folder within the `Assets` directory.
+
+### Data Manager
+
+1. The `DataManager` is both a script and an object placed in the scene.
+2. To configure the `DataManager`, select the object in the scene and view its configuration in the Inspector window.
+3. In the configuration tab, specify which scriptable objects are being tracked by dragging and dropping the scriptable objects into the appropriate field.
+4. For a large number of models, you can also configure the `DataManager` through scripting to automate the addition process.
+
+Feel free to reach out if you need more detailed instructions or encounter any issues during the configuration process.
 
 ## Contributing
 
@@ -45,7 +75,7 @@ The project is being showcased for a short academic article, so the main purpose
 
 ## License
 
-The license will be defined once the professor guiding the writing of the article decides. It will likely be an MIT license or something similar.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./LICENSE) file for details.
 
 ## Credits
 
@@ -57,14 +87,10 @@ School of Engineering, Pontificia Universidad Católica de Chile
 
 ## Contact
 
-For any inquiries or feedback, please start an issue on this project repository. This helps avoid sharing sensitive personal information publicly.
+For any inquiries or feedback, please start an issue on this project repository.
 
 ## Badges
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)  
-Indicates that the current build is passing all the necessary checks and is operational.
-
-## Additional Sections
-
-Not yet needed, will let you know according to professor’s feedback.
+This build is up to date and fully functioning as described on the academic paper it was reported.
 

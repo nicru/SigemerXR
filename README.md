@@ -35,9 +35,7 @@ Organizations often need to update their emergency escape protocols to comply wi
 
 To ensure that emergency signs are placed effectively for maximum visibility, it is important to collect feedback from actual users. SigemerXR can facilitate this by allowing users to interact with digital prototypes of escape routes and signs. By conducting user polls and collecting data on the placement of signs that are most visible and intuitive, organizations can make informed decisions about their emergency signage. This user-centered approach ensures that escape routes are optimized based on real-world feedback, leading to improved safety and compliance with visibility standards.
 
-### Other Uses
-
-SigemerXR was developed specifically for emergency route planning, as demonstrated by the use cases provided. However, it can be easily adapted for any scenario requiring the placement of 3D models in space through augmented reality (AR).
+> **💡 Other Uses:** SigemerXR was developed specifically for emergency route planning, as demonstrated by the use cases provided. However, it can be easily adapted for any scenario requiring the placement of 3D models in space through augmented reality (AR).
 
 ## Configuration
 
@@ -97,4 +95,3 @@ For any inquiries or feedback, please start an issue on this project repository.
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)  
 This build is up to date and fully functioning as described on the academic paper it was reported.
-

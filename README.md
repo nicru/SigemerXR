@@ -16,14 +16,12 @@ SigemerXR is an Extended Reality app designed for prototyping emergency escape r
 2. Add it as a valid Unity project on Unity Hub.
 3. This project was developed using Unity 2022.3.34f1 with Android Build Support. If you use a different version, compatibility issues might arise. These can be resolved, but it is not advised if an easy setup is desired.
 4. The rest of the dependencies should be downloaded by Unity Package Manager. 
-> **⚠️ Remember:** Go to `Assets/Scenes` and click on `SampleScene` in order to import the scene as it was intended to work on the original build. Otherwise the scene will be empty and when trying to generate a build, it will not work.
+   > **⚠️ Remember:** Go to `Assets/Scenes` and click on `SampleScene` in order to import the scene as it was intended to work on the original build. Otherwise, the scene will be empty and when trying to generate a build, it will not work.
 5. Generate a running build from Unity build settings tab.
 6. Download to an Android device that supports Google's ARCore. [List of supported devices](https://developers.google.com/ar/devices).
 7. Execute, install ARCore, give permission for the app to use your camera, and you're ready.
 
 ## Usage
-
-SigemerXR was developed specifically for emergency route planning, as demonstrated by the use cases provided. However, it can be easily adapted for any scenario requiring the placement of 3D models in space through augmented reality (AR).
 
 ### 1. Planning Escape Routes in a New Metro Station
 
@@ -36,6 +34,10 @@ Organizations often need to update their emergency escape protocols to comply wi
 ### 3. Polling Users to Improve Visibility of Emergency Signs
 
 To ensure that emergency signs are placed effectively for maximum visibility, it is important to collect feedback from actual users. SigemerXR can facilitate this by allowing users to interact with digital prototypes of escape routes and signs. By conducting user polls and collecting data on the placement of signs that are most visible and intuitive, organizations can make informed decisions about their emergency signage. This user-centered approach ensures that escape routes are optimized based on real-world feedback, leading to improved safety and compliance with visibility standards.
+
+### Other Uses
+
+SigemerXR was developed specifically for emergency route planning, as demonstrated by the use cases provided. However, it can be easily adapted for any scenario requiring the placement of 3D models in space through augmented reality (AR).
 
 ## Configuration
 

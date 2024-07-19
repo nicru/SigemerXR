@@ -23,9 +23,11 @@ SigemerXR is an Extended Reality app designed for prototyping emergency escape r
 
 ## Usage
 
+SigemerXR was developed specifically for emergency route planning, as demonstrated by the use cases provided. However, it can be easily adapted for any scenario requiring the placement of 3D models in space through augmented reality (AR).
+
 ### 1. Planning Escape Routes in a New Metro Station
 
-SigemerXR can be instrumental in planning escape routes for a new metro station. With such an environment’s complexity and high foot traffic, traditional prototyping methods could be time-consuming and costly. Using SigemerXR, planners can create and position digital 3D models of escape signs throughout the station. This allows rapid testing and iteration of various escape route configurations, ensuring that all areas of the station are covered effectively. The tool’s ability to visualize these routes in real time helps identify potential bottlenecks and optimize the placement of signs for maximum visibility and efficiency.
+SigemerXR can be instrumental in planning escape routes for a new metro station. With such an environment's complexity and high foot traffic, traditional prototyping methods can be time-consuming and costly. Using SigemerXR, planners can create and position digital 3D models of escape signs throughout the station. This allows rapid testing and iteration of various escape route configurations, ensuring that all areas of the station are covered effectively. The tool's ability to visualize these routes in real-time helps identify potential bottlenecks and optimize the placement of signs for maximum visibility and efficiency.
 
 ### 2. Updating Emergency Escape Protocols
 
